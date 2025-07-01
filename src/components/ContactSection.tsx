@@ -26,52 +26,52 @@ const ContactSection = () => {
               </p>
             </div>
 
-            <div className="space-y-6">
-              {[
-                {
-                  icon: Mail,
-                  title: "Email",
-                  value: "pujithallam@gmail.com",
-                  href: "mailto:pujithallam@gmail.com"
-                },
-                {
-                  icon: Phone,
-                  title: "Phone",
-                  value: "+1 (480) 942-4991",
-                  href: "tel:+14809424991"
-                },
-                {
-                  icon: MapPin,
-                  title: "Location",
-                  value: "Tempe, but available for opportunities across US",
-                  href: "#"
-                }
-              ].map(({ icon: Icon, title, value, href }) => (
-                <Card key={title} className="hover:shadow-md transition-all duration-300 border-0 bg-gradient-to-br from-card to-background">
-                  <CardContent className="p-6">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
-                        <Icon className="w-6 h-6 text-primary-foreground" />
-                      </div>
-                      <div>
-                        <p className="font-medium text-sm text-muted-foreground uppercase tracking-wide">
-                          {title}
-                        </p>
-                        <a 
-                          href={href}
-                          className="text-lg font-semibold hover:text-primary transition-colors"
-                        >
-                          {value}
-                        </a>
-                      </div>
+          </div>
+          <div className="space-y-6">
+            {[
+              {
+                icon: Mail,
+                title: "Email",
+                value: "pujithallam@gmail.com",
+                href: "mailto:pujithallam@gmail.com"
+              },
+              {
+                icon: Phone,
+                title: "Phone",
+                value: "+1 (480) 942-4991",
+                href: "tel:+14809424991"
+              },
+              {
+                icon: MapPin,
+                title: "Location",
+                value: "Tempe, but available for opportunities across US",
+                href: "#"
+              }
+            ].map(({ icon: Icon, title, value, href }) => (
+              <Card key={title} className="hover:shadow-md transition-all duration-300 border-0 bg-gradient-to-br from-card to-background">
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
+                      <Icon className="w-6 h-6 text-primary-foreground" />
                     </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+                    <div>
+                      <p className="font-medium text-sm text-muted-foreground uppercase tracking-wide">
+                        {title}
+                      </p>
+                      <a 
+                        href={href}
+                        className="text-lg font-semibold hover:text-primary transition-colors"
+                      >
+                        {value}
+                      </a>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
           </div>
 
-          <Card className="border-0 bg-gradient-to-br from-card to-background shadow-xl">
+          {/* <Card className="border-0 bg-gradient-to-br from-card to-background shadow-xl">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
               <form className="space-y-6">
@@ -111,7 +111,7 @@ const ContactSection = () => {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

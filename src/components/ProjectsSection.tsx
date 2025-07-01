@@ -7,47 +7,50 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "CFD Analysis of Complex Geometries",
-      description: "Advanced computational fluid dynamics analysis for complex mechanical systems, optimizing flow patterns and thermal performance using ANSYS Fluent and COMSOL.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop",
-      technologies: ["ANSYS Fluent", "COMSOL", "CFD", "Thermal Analysis"],
-      category: "Analysis"
+      title: "Multiphysics CFD Analysis Under Variable Gravity Conditions",
+      description: "Simulated internal and external flows using ANSYS Fluent, analyzing buoyancy, heat transfer, and compressible flow under Martian gravity, oscillating fluid columns, and nozzle dynamics; validated results with hand calculations and visualized velocity, temperature, Mach profiles across varied materials and geometries.",
+      image: "https://assets.skyfilabs.com/images/blog/flow-simulation-and-shape-optimization-of-airfoil.webp",
+      technologies: ["ANSYS Fluent","Solidworks","MATLAB", "CFD", "Data Visualization"],
+      category: "Aerospace",
+      viewProjLink:"https://drive.google.com/file/d/1SZkcZKcQWPo3GFg7IloJmGDQF0hGTblR/view?usp=drive_link"
     },
     {
-      title: "Design and Development of Tensile Testing Machine",
-      description: "Complete design and manufacturing of a custom tensile testing machine for material characterization, incorporating force calibration and automated data collection systems.",
-      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=400&fit=crop",
-      technologies: ["SolidWorks", "Mechanical Design", "Force Calibration", "Testing"],
-      category: "Design"
+      title: "Arduino-Based Low-Cost Tensile Testing Machine",
+      description: "Designed and built an Arduino-based tensile testing machine with integrated load sensing and motor control to perform real-time tensile and fatigue testing, enabling accurate material strength analysis through a compact, low-cost mechatronic system.",
+      image: "https://images.prismic.io/xometry-marketing/0147ebd0-f6ac-4e15-9b93-40eb076623ce_tensile-test.jpg?auto=compress%2Cformat&rect=166%2C0%2C667%2C667&w=486&h=486&fit=max&fm=webp",
+      technologies: ["SolidWorks", "Arduino Programming"],
+      category: "Mechatronics",
+      viewProjLink:"https://drive.google.com/file/d/1YCkSzgtS-BJdYdUHEAgwSC3uMF0yeRDp/view?usp=sharing"
     },
     {
-      title: "Thermal Analysis of Additive Manufacturing",
-      description: "Comprehensive thermal and structural analysis of additive manufacturing processes using ANSYS, optimizing print parameters for enhanced quality and reduced warpage.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
-      technologies: ["ANSYS", "Thermal Analysis", "Structural Analysis", "3D Printing"],
-      category: "Manufacturing"
+      title: "Thermal Modeling in LPBF for Additive Manufacturing",
+      description: "Conducted FEA-based thermal simulations in ANSYS for FDM using AlF357 and AlSi7Mg, evaluating heat flux, temperature response, and material efficiency to optimize additive manufacturing quality and performance.",
+      image: "https://plus.unsplash.com/premium_photo-1715786199807-ed84dc311939?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      technologies: ["ANSYS", "COMSOL", "FEA Simulation"],
+      category: "Additive Manufacturing",
+      viewProjLink:"https://drive.google.com/file/d/1jYxqkLJYszBSwLTz4POqNK91ByN5lQZy/view?usp=sharing"
     },
-    {
-      title: "Robotics Integration for Automated Assembly",
-      description: "Development of automated assembly systems integrating robotics and control systems for enhanced manufacturing efficiency and precision.",
-      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
-      technologies: ["Arduino", "Automation", "Assembly", "Control Systems"],
-      category: "Automation"
-    },
-    {
-      title: "Energy Efficiency Analysis of HVAC Systems",
-      description: "Optimization of HVAC systems through comprehensive energy analysis and thermal modeling, achieving significant energy savings in industrial applications.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-      technologies: ["COMSOL", "Energy Analysis", "HVAC", "Optimization"],
-      category: "Energy"
-    },
-    {
-      title: "Smart Monitoring System for Industrial Machines",
-      description: "Development of IoT-based monitoring systems for predictive maintenance and real-time performance optimization of industrial machinery.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop",
-      technologies: ["Python", "IoT", "Monitoring", "Predictive Maintenance"],
-      category: "Technology"
-    }
+    // { drive lo upload chesi okasri link istava oka image di
+    //   title: "Robotics Integration for Automated Assembly",
+    //   description: "Development of automated assembly systems integrating robotics and control systems for enhanced manufacturing efficiency and precision.",
+    //   image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
+    //   technologies: ["Arduino", "Automation", "Assembly", "Control Systems"],
+    //   category: "Automation"
+    // },
+    // {
+    //   title: "Energy Efficiency Analysis of HVAC Systems",
+    //   description: "Optimization of HVAC systems through comprehensive energy analysis and thermal modeling, achieving significant energy savings in industrial applications.",
+    //   image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+    //   technologies: ["COMSOL", "Energy Analysis", "HVAC", "Optimization"],
+    //   category: "Energy"
+    // },
+    // {
+    //   title: "Smart Monitoring System for Industrial Machines",
+    //   description: "Development of IoT-based monitoring systems for predictive maintenance and real-time performance optimization of industrial machinery.",
+    //   image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop",
+    //   technologies: ["Python", "IoT", "Monitoring", "Predictive Maintenance"],
+    //   category: "Technology"
+    // }
   ];
 
   return (
@@ -55,7 +58,7 @@ const ProjectsSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-            Innovation Showcase
+            Projects
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Cutting-edge engineering projects demonstrating advanced technical solutions and innovation
@@ -104,13 +107,16 @@ const ProjectsSection = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button size="sm" variant="outline" className="flex-1 glass-effect hover:bg-white/10">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
-                  </Button>
-                  <Button size="sm" variant="ghost" className="glass-effect hover:bg-white/10">
-                    <Github className="w-4 h-4" />
-                  </Button>
+                  <a href={project.viewProjLink} target="_blank"
+                  className="w-full">
+                    <Button size="sm" variant="outline" className="flex-1 glass-effect hover:bg-white/10">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                    {/* <Button size="sm" variant="ghost" className="glass-effect hover:bg-white/10">
+                      <Github className="w-4 h-4" />
+                    </Button> */}
+                  </a>
                 </div>
               </div>
             </Card>

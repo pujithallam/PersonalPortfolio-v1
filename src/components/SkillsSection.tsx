@@ -4,28 +4,28 @@ import { Badge } from "@/components/ui/badge";
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Design & Modeling",
-      skills: ["AutoCAD", "SolidWorks", "Fusion360", "Tinkercad", "Mechanical Design", "GD&T"],
+      title: "Design & Modeling Tools",
+      skills: ["AutoCAD", "SolidWorks", "Fusion360", "Tinkercad", "CATIA", ],
       color: "bg-blue-500"
     },
     {
       title: "Analysis Tools",
-      skills: ["ANSYS Fluent", "ANSYS Structural", "ANSYS Thermal", "Ls Dyna", "COMSOL Multiphysics", "FEA", "CFD"],
+      skills: ["ANSYS Fluent(Structural Thermal)", "Ls Dyna","COMSOL Multiphysics" ],
       color: "bg-green-500"
     },
     {
       title: "Programming & Data",
-      skills: ["Python", "MATLAB", "Arduino", "Microsoft Excel", "Microsoft PowerPoint", "Data Handling"],
+      skills: ["Python", "MATLAB", "Arduino", "Microsoft Office Suite","SAP","Data Handling"],
       color: "bg-purple-500"
     },
     {
       title: "Manufacturing & Testing",
-      skills: ["Lean Manufacturing", "SPC", "Tensile Testing", "Fatigue Testing", "Root Cause Analysis", "Assembly"],
+      skills: ["Lean Manufacturing", "Applied SPC", "Tensile & Fatigue Testing ", "Mechanical Testing and validation","Root Cause Analysis", "Assembly","Force Calibration","Semiconductor Manufacturing Process","Project Management","GD&T"],
       color: "bg-orange-500"
     },
     {
       title: "Technical Skills",
-      skills: ["Semiconductor Manufacturing", "Closed-Loop Control", "Force Calibration", "Testing & Validation"],
+      skills: ["Finite Element Analysis", "Supervised Learning" ,"Closed-Loop Control", "Fitting Models", "Testing & Validation","Bill of Materials (BOM)","CFD (Computational Fluid Dynamics)","Arduino Programming","Mechanical Design"],
       color: "bg-red-500"
     },
     {
@@ -40,7 +40,7 @@ const SkillsSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-            Technical Mastery
+            Skills & Expertise
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Comprehensive expertise across advanced engineering tools and methodologies

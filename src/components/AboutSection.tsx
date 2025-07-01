@@ -30,10 +30,10 @@ const AboutSection = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Engineering Excellence
+            About me
           </h2>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Transforming complex challenges into innovative solutions through precision engineering
+          <p className="text-xl italic md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            "Let's get invent tomorrow rather than worrying about what happened yesterday" <br/> - Steve Jobs
           </p>
         </div>
 
@@ -44,23 +44,26 @@ const AboutSection = () => {
             <Card className="card-glow hover-lift p-8 transition-all duration-500">
               <CardContent className="p-0">
                 <div className="flex items-start gap-4">
-                  <div className="w-3 h-16 bg-gradient-to-b from-blue-500 to-purple-600 rounded-full flex-shrink-0" />
+                  <div className="w-3 h-16 bg-gradient-to-b  rounded-full flex-shrink-0" />
                   <div>
-                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
+                    {/* <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
                       Advanced Engineering Solutions
-                    </h3>
+                    </h3> */}
                     <p className="text-muted-foreground leading-relaxed text-lg">
+                      Hey there! I'm Pujith, a Mechanical Engineer from Arizona State University, and I'm absolutely fascinated by how we can build a better tomorrow through smart manufacturing and innovative design. I love diving into complex challenges, blending advanced analysis with hands-on solutions in automation. My goal? To help shape the future of high-tech industries, one efficient and groundbreaking idea at a time. If you're looking for someone passionate about bringing fresh ideas to life, let's connect!
+                    </p>
+                    {/* <p className="text-muted-foreground leading-relaxed text-lg">
                       Specializing in product design, rapid prototyping, and solving complex mechanical 
                       challenges. My expertise consistently enhances performance in dynamic manufacturing 
                       environments through optimized production workflows, precision CAD modeling, and 
                       comprehensive industrial safety protocols.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="card-glow hover-lift p-8 transition-all duration-500">
+            {/* <Card className="card-glow hover-lift p-8 transition-all duration-500">
               <CardContent className="p-0">
                 <div className="flex items-start gap-4">
                   <div className="w-3 h-16 bg-gradient-to-b from-purple-500 to-pink-600 rounded-full flex-shrink-0" />
@@ -77,7 +80,7 @@ const AboutSection = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
 
           <div className={`relative transition-all duration-1000 delay-500 ${
@@ -85,7 +88,7 @@ const AboutSection = () => {
           }`}>
             <div className="aspect-square rounded-3xl glass-effect p-1 hover-lift">
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=700&h=700&fit=crop"
+                src="image.png"
                 alt="Advanced engineering workspace with CAD modeling and analysis tools"
                 className="w-full h-full object-cover rounded-3xl"
               />

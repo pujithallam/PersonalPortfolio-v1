@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 
+import Resume from "@/assets/Resume_Pujith_Mechanical.pdf"
+
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -26,7 +28,7 @@ const Navigation = () => {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="font-bold text-xl">Pujith Sai Eswar</div>
+          <div className="font-bold text-xl">A.PUJITH</div>
           
           <div className="hidden md:flex items-center space-x-8">
             {["About", "Skills", "Projects", "Experience", "Education", "Certifications", "Contact"].map((item) => (
@@ -40,13 +42,15 @@ const Navigation = () => {
             ))}
           </div>
 
-          <Button 
-            size="sm" 
-            className="bg-primary hover:bg-primary/90 transition-all duration-200 hover:scale-105"
-          >
-            <Download className="w-4 h-4 mr-2" />
-            Resume
-          </Button>
+          <a href={Resume} target="_blank" rel="noopener noreferrer" download={"Pujith_Sai_Eswar_Resume.pdf"}>
+            <Button 
+              size="sm" 
+              className="bg-primary hover:bg-primary/90 transition-all duration-200 hover:scale-105"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              Resume
+            </Button>
+          </a>
         </div>
       </div>
     </nav>
