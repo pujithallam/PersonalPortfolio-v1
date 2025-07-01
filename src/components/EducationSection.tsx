@@ -8,7 +8,7 @@ const EducationSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-            Academic Foundation
+            Education
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Advanced mechanical engineering education from premier institutions

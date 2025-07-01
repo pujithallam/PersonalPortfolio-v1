@@ -25,7 +25,7 @@ const ExperienceSection = () => {
     <section id="experience" className="py-20 px-6 bg-muted/30">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Professional Trajectory</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Experience</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Building expertise through hands-on engineering experience and manufacturing excellence
           </p>
