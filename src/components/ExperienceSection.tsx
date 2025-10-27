@@ -8,15 +8,29 @@ const ExperienceSection = () => {
       title: "Engineering Intern",
       company: "Synergies Casting Limited",
       location: "Visakhapatnam, India",
-      period: "March 2021 - August 2021",
+      period: "March 2021 - February 2022",
       description: "Specialized in foundry operations and quality control for alloy wheel manufacturing, focusing on wheel distortion monitoring and process optimization.",
       achievements: [
-        "Analyzed and monitored wheel distortion in foundry operations across casting, gate cutting, and heat treatment processes",
-        "Conducted comprehensive dimensional analysis to ensure compliance with tolerance limits and improve production quality",
-        "Gained hands-on experience with die casting, NDT (X-ray), and heat treatment for alloy wheel manufacturing",
-        "Suggested process optimizations that reduced distortion and enhanced manufacturing efficiency",
-        "Collaborated on data-driven quality improvements, contributing to significant reductions in scrap and rework",
-        "Worked with engineering teams to identify and implement quality control measures for defect reduction"
+        "Conducted dimensional inspections and tolerance analysis using GD&T, ensuring compliance with engineering drawings and reducing out-of-spec components by 15%.",
+        "Performed root cause analysis on wheel distortion during casting using Lean Manufacturing techniques improved production yield by 12%",
+        "Operated and monitored die casting, heat treatment, using statistical process control (SPC) to maintain consistency and improve part reliability",
+        "SuSupported equipment installation and commissioning, verifying mechanical alignment and process stability for foundry systems",
+        "Implemented quality control measures and preventive maintenance schedules with cross-functional teams, reducing downtime by 20%",
+        "Documented process flow improvements and inspection results using Excel dashboards and SAP, creating traceable manufacturing records"
+      ]
+    },
+    {
+      title: "Research aide",
+      company: "Arizona State University",
+      location: "Tempe, Arizona",
+      period: "June 2025 - Present",
+      description: "Specialized in digital twin development and simulation-driven process optimization, enhancing mechanical system performance and thermal reliability in manufacturing environments.",
+      achievements: [
+        "Designed and simulated digital twins of manufacturing systems using SolidWorks, ANSYS Fluent, and MATLAB, increasing process visualization accuracy by 25%.",
+        "Applied CFD and thermal modeling techniques in COMSOL and ANSYS to optimize energy flow and heat dissipation across components, improving reliability by 18%.",
+        "Automated quality assessment workflows using Python and Minitab, reducing manual inspection time by 30% while maintaining high precision",
+        "Developed 3D autoencoder models for defect detection, integrating machine learning and supervised learning principles to identify manufacturing faults in real time",
+        "Prepared technical documentation, SOPs, and reports on equipment integration, mechanical alignment, and process improvement using the Microsoft Suite and SAP BOM Management tools.",
       ]
     }
   ];
