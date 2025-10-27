@@ -14,7 +14,7 @@ const ExperienceSection = () => {
         "Conducted dimensional inspections and tolerance analysis using GD&T, ensuring compliance with engineering drawings and reducing out-of-spec components by 15%.",
         "Performed root cause analysis on wheel distortion during casting using Lean Manufacturing techniques improved production yield by 12%",
         "Operated and monitored die casting, heat treatment, using statistical process control (SPC) to maintain consistency and improve part reliability",
-        "SuSupported equipment installation and commissioning, verifying mechanical alignment and process stability for foundry systems",
+        "Supported equipment installation and commissioning, verifying mechanical alignment and process stability for foundry systems",
         "Implemented quality control measures and preventive maintenance schedules with cross-functional teams, reducing downtime by 20%",
         "Documented process flow improvements and inspection results using Excel dashboards and SAP, creating traceable manufacturing records"
       ]
